@@ -1,0 +1,243 @@
+@media screen and (min-width:600px){
+    .registerf{
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: black;
+        color: gray;
+        height: 550px;
+        text-align: center;
+        margin-top: 5%;
+    
+        border-radius: 25px;
+        border: 3px solid gray;
+    
+    }
+    .registerf h1{
+        text-decoration: underline;
+    
+    }
+    .l1{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l1 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l2{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l2 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l3{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l3 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l4{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l4 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    
+    
+    .registerf button{
+        border-radius: 25px;
+        margin-top: 25px;
+        width: 180px;
+        padding: 7px;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .registerf{
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: black;
+        color: gray;
+        height: 550px;
+        text-align: center;
+        margin-top: 5%;
+    
+        border-radius: 25px;
+        border: 3px solid gray;
+    
+    }
+    .registerf h1{
+        text-decoration: underline;
+    
+    }
+    .l1{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l1 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l2{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l2 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l3{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l3 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l4{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l4 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    
+    
+    .registerf button{
+        border-radius: 25px;
+        margin-top: 25px;
+        width: 180px;
+        padding: 7px;
+    }
+    
+}
+
+@media screen and (min-width:992px){
+    .registerf{
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: black;
+        color: gray;
+        height: 550px;
+        text-align: center;
+        margin-top: 5%;
+    
+        border-radius: 25px;
+        border: 3px solid gray;
+    
+    }
+    .registerf h1{
+        text-decoration: underline;
+    
+    }
+    .l1{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l1 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l2{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l2 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l3{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l3 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l4{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l4 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    
+    
+    .registerf button{
+        border-radius: 25px;
+        margin-top: 25px;
+        width: 180px;
+        padding: 7px;
+    }
+    
+}
+
+@media screen and (min-width:1200px){
+    .registerf{
+        margin-left: 25%;
+        margin-right: 25%;
+        background-color: black;
+        color: gray;
+        height: 550px;
+        text-align: center;
+        margin-top: 5%;
+    
+        border-radius: 25px;
+        border: 3px solid gray;
+    
+    }
+    .registerf h1{
+        text-decoration: underline;
+    
+    }
+    .l1{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l1 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l2{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l2 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l3{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l3 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    .l4{
+    margin-top: 25px;
+    font-size: 15px;
+    }
+    .l4 input{
+        padding: 7px;
+        border-radius: 25px;
+    }
+    
+    
+    .registerf button{
+        border-radius: 25px;
+        margin-top: 25px;
+        width: 180px;
+        padding: 7px;
+    }
+    
+}

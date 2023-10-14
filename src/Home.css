@@ -1,0 +1,1203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+
+@media screen and (min-width:600px){
+    .maincont{
+        background-color: lightblue;
+
+
+    }
+    
+    .cont1{
+        background-color: lightblue;
+        margin-left: 15%;
+        font-style: initial;
+    }
+    .cont1 h1{
+        margin-top: 55px;
+        font-size: 25px;
+    
+        
+    }
+    .cont1 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont1 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont1 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+    .cont2{
+        margin-left: 15%;
+    }
+    .cont2 h1{
+        margin-top: 55px;
+        font-size: 25px;
+        
+    }
+    .cont2 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont2 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont2 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+    .services{
+        margin-top: 2%;
+        background-color:white;
+        display: inline-flex;
+        flex-flow: row wrap;
+    }
+    .services img:hover{
+        scale: 1.1;
+    
+    }
+    
+    .dilivery{
+        margin-left: 10%;
+        display: flex;
+    }
+    .dilivery img{
+        width: 40px;
+        height: 40px;
+    }
+    .dilivery h1{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .dilivery p{
+        position: absolute;
+        margin-left: 50px;
+        margin-top: 2%;
+        margin-right: 60%;
+    }
+    
+    .money{
+        margin-left: 20%;
+        display: flex;
+    }
+    .money img{
+        width: 30px;
+        height: 30px;
+    }
+    .money h1{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .money p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 2%;
+    }
+    
+    .time{
+        display: flex;
+        margin-left: 10%;
+        margin-top: 7%;
+    
+    }
+    .time img{
+        width: 40px;
+        height: 40px;
+    }
+    .time h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .time p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 2%;
+        margin-right: 34%;
+    }
+    .security{
+        display: flex;
+        margin-left: 20%;
+        margin-top: 7%;
+    }
+    .security img{
+        width: 40px;
+        height: 40px;
+    }
+    .security h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .security p{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 2%;
+        margin-right: 0%;
+    }
+
+    .departments{
+        margin-top: 2%;
+        margin-left:15%;
+       } 
+       .departments h1{
+        font-weight: bold;
+       }
+       .departments p{
+        font-size: large;
+       }
+    
+    
+       .popular{
+        margin-top: 2%;
+        margin-left:15%;
+       } 
+       .popular h1{
+        font-weight: bold;
+       }
+       .popular p{
+        font-size: large;
+       }
+
+       .newarrival{
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        background-color: lightgrey;
+      
+       }
+    
+       .new1{
+        margin-top: 8%;
+        width: 700px;
+        height: 270px;
+        background-size: cover;
+        margin-left: 25px;
+        background-color: lightcyan;
+       }
+       .new1 h1{
+        font-weight: lighter;
+        font-size: 15px;
+        margin-left: 32%;
+        margin-top: 5%;
+       }
+       .new1 h2{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 32%;
+       }
+       .new1 h3{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 32%;
+       }
+       .new1 p{
+        color: gray;
+        margin-top: 10px;
+        margin-left: 32%;
+       }
+    
+       .new2{
+        margin-left: 25%;
+        margin-top: 8%;
+        width: 400px;
+        height: 270px;
+        background: cover;
+        background-color: lightslategray;
+       }
+       .new2 img{
+        margin-top: 10px;
+        width: 200px;
+        margin-left: 25%;
+       }
+       .new2 h1{
+        color: gray;
+        font-size: 20px;
+        position: absolute;
+        margin-top: -20%;
+        margin-left: 60px;
+       }
+       .new2 h2{
+        color: gray;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -16%;
+        margin-left: 57px;
+       }
+       .new2 h3{
+        color: red;
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 57px;
+       }
+
+
+       .mail{
+        margin-top: 15%;
+       }
+    .mail1{
+        display: flex;
+    }
+       .mail1 img{
+        width: 80px;
+        height: 50px;
+       }
+       .mail1 h1{
+        font-size: 25px;
+       }
+       .mail1 p{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 85px;
+       }
+    .mail2{
+        display: flex;
+    }
+       .mail2 input{
+        border: 2px solid black;
+        width: 800px;
+        margin-left: 64%;
+        
+       }
+       .mail2 button{
+        border-bottom: 2px solid black;
+        margin-left: 20px;
+        width: 200px;
+        background-color:lightblue;
+       }
+     
+}
+@media screen and (min-width:768px){
+    .maincont{
+        background-color: lightblue;
+
+    }
+    
+    .cont1{
+        background-color: lightblue;
+        position: absolute;
+        margin-left: 15%;
+        font-style: initial;
+    }
+    .cont1 h1{
+        margin-top: 55px;
+        font-size: 25px;
+    
+        
+    }
+    .cont1 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont1 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont1 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+    .cont2{
+        margin-left: 57%;
+    }
+    .cont2 h1{
+        margin-top: 55px;
+        font-size: 25px;
+        
+    }
+    .cont2 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont2 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont2 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+    
+    
+   
+    
+    .services{
+        margin-top: 2%;
+        background-color:white;
+        display: inline-flex;
+        flex-flow: row;
+    }
+    .services img:hover{
+        scale: 1.1;
+    
+    }
+    
+    .dilivery{
+        margin-left: 5%;
+        display: flex;
+    }
+    .dilivery img{
+        width: 50px;
+        height: 50px;
+    }
+    .dilivery h1{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .dilivery p{
+        position: absolute;
+        margin-left: 55px;
+        margin-top: 2%;
+        margin-right: 75%;
+    }
+    
+    .money{
+        margin-left: 7%;
+        display: flex;
+    }
+    .money img{
+        width: 40px;
+        height: 40px;
+    }
+    .money h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .money p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 2%;
+    }
+    
+    .time{
+        margin-top: -8px;
+        display: flex;
+        margin-left: 5%;
+    
+    }
+    .time img{
+        width: 40px;
+        height: 40px;
+    }
+    .time h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .time p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 2%;
+        margin-right: 34%;
+    }
+    .security{
+        margin-top: -5px;
+        display: flex;
+        margin-left: 5%;
+    }
+    .security img{
+        width: 40px;
+        height: 40px;
+    }
+    .security h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .security p{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 2%;
+        margin-right: 0%;
+    }
+
+    .departments{
+        margin-top: 2%;
+        margin-left:5%;
+       } 
+       .departments h1{
+        font-weight: bold;
+       }
+       .departments p{
+        font-size: large;
+       }
+    
+    
+       .popular{
+        margin-top: 2%;
+        margin-left:5%;
+       } 
+       .popular h1{
+        font-weight: bold;
+       }
+       .popular p{
+        font-size: large;
+       }
+       .newarrival{
+        background-size: cover;
+        width: 100%;
+        height: 750px;
+        background-color: lightgrey;
+     
+       }
+    
+       .new1{
+        margin-top: 10%;
+        width: 700px;
+        height: 270px;
+        background-size: cover;
+        margin-left: 10%;
+        background-color: lightcyan;
+       }
+       .new1 h1{
+        font-weight: lighter;
+        font-size: 15px;
+        margin-left: 32%;
+        margin-top: 5%;
+       }
+       .new1 h2{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 32%;
+       }
+       .new1 h3{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 32%;
+       }
+       .new1 p{
+        color: gray;
+        margin-top: 10px;
+        margin-left: 32%;
+       }
+    
+       .new2{
+        margin-left: 27%;
+        width: 400px;
+        height: 270px;
+        background: cover;
+        background-color: lightslategray;
+       }
+       .new2 img{
+        margin-top: 10px;
+        width: 200px;
+        margin-left: 25%;
+       }
+       .new2 h1{
+        color: gray;
+        font-size: 20px;
+        position: absolute;
+        margin-top: -15%;
+        margin-left: 60px;
+       }
+       .new2 h2{
+        color: gray;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -13%;
+        margin-left: 57px;
+       }
+       .new2 h3{
+        color: red;
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 57px;
+       }
+
+       .mail{
+        margin-top: 15%;
+       }
+    .mail1{
+        display: flex;
+    }
+       .mail1 img{
+        width: 80px;
+        height: 50px;
+       }
+       .mail1 h1{
+        font-size: 25px;
+       }
+       .mail1 p{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 85px;
+       }
+    .mail2{
+        display: flex;
+    }
+       .mail2 input{
+        border: 2px solid black;
+        width: 500px;
+        margin-left: 71%;
+        
+       }
+       .mail2 button{
+        border-bottom: 2px solid black;
+        margin-left: 20px;
+        width: 200px;
+        background-color:lightblue;
+       }
+     
+}
+@media screen and (min-width:992px){
+    .maincont{
+        background-color: lightblue;
+
+
+    }
+    
+    .cont1{
+        background-color: lightblue;
+        position: absolute;
+        margin-left: 15%;
+        font-style: initial;
+    }
+    .cont1 h1{
+        margin-top: 55px;
+        font-size: 25px;
+    
+        
+    }
+    .cont1 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont1 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont1 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+    .cont2{
+        margin-left: 55%;
+    }
+    .cont2 h1{
+        margin-top: 55px;
+        font-size: 25px;
+        
+    }
+    .cont2 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont2 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont2 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+
+    
+    
+    .services{
+        margin-top: 2%;
+        background-color: white;
+        display: flex;
+        flex-flow: row;
+    }
+    .services img:hover{
+        scale: 1.1;
+    
+    }
+    
+    .dilivery{
+        margin-left: 5%;
+        display: flex;
+    }
+    .dilivery img{
+        width: 50px;
+        height: 50px;
+    }
+    .dilivery h1{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .dilivery p{
+        position: absolute;
+        margin-left: 55px;
+        margin-top: 5%;
+    }
+    
+    .money{
+        margin-left: 7%;
+        display: flex;
+    }
+    .money img{
+        width: 40px;
+        height: 40px;
+    }
+    .money h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .money p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 2%;
+    }
+    
+    .time{
+        display: flex;
+        margin-left: 5%;
+    
+    }
+    .time img{
+        width: 40px;
+        height: 40px;
+    }
+    .time h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .time p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 2%;
+        margin-right: 25%;
+    }
+    .security{
+        display: flex;
+        margin-left: 5%;
+    }
+    .security img{
+        width: 40px;
+        height: 40px;
+    }
+    .security h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .security p{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 2%;
+        margin-right: 0%;
+    }
+
+    .departments{
+        margin-top: 2%;
+        margin-left:5%;
+       } 
+       .departments h1{
+        font-weight: bold;
+       }
+       .departments p{
+        font-size: large;
+       }
+    
+    
+       .popular{
+        margin-top: 2%;
+        margin-left:5%;
+       } 
+       .popular h1{
+        font-weight: bold;
+       }
+       .popular p{
+        font-size: large;
+       }
+
+       .newarrival{
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+        background-color: lightgrey;
+        display: flex;
+        flex-flow: wrap;
+       }
+    
+       .new1{
+        margin-top: 8%;
+        width: 700px;
+        height: 270px;
+        background-size: cover;
+        margin-left: 10%;
+        background-color: lightcyan;
+       }
+       .new1 h1{
+        font-weight: lighter;
+        font-size: 15px;
+        margin-left: 32%;
+        margin-top: 5%;
+       }
+       .new1 h2{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 32%;
+       }
+       .new1 h3{
+        margin-top: 10px;
+        font-size: 35px;
+        margin-left: 32%;
+       }
+       .new1 p{
+        color: gray;
+        margin-top: 10px;
+        margin-left: 32%;
+       }
+    
+       .new2{
+        margin-left: 60%;
+        margin-top: 8%;
+        width: 400px;
+        height: 270px;
+        background-size: cover;
+        background-color: lightslategray;
+       }
+       .new2 img{
+        margin-top: 10px;
+        width: 200px;
+        margin-left: 25%;
+       }
+       .new2 h1{
+        color: gray;
+        font-size: 20px;
+        position: absolute;
+        margin-top: -15%;
+        margin-left: 60px;
+       }
+       .new2 h2{
+        color: gray;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -13%;
+        margin-left: 57px;
+       }
+       .new2 h3{
+        color: red;
+        position: absolute;
+        margin-top: -10%;
+        margin-left: 57px;
+       }
+
+       .mail{
+        margin-top: 7%;
+       }
+    .mail1{
+        display: flex;
+    }
+       .mail1 img{
+        width: 80px;
+        height: 50px;
+       }
+       .mail1 h1{
+        font-size: 25px;
+       }
+       .mail1 p{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 85px;
+       }
+    .mail2{
+        display: flex;
+    }
+       .mail2 input{
+        border: 2px solid black;
+        width: 700px;
+        margin-left: 100%;
+        
+       }
+       .mail2 button{
+        border-bottom: 2px solid black;
+        margin-left: 20px;
+        width: 200px;
+        background-color:lightblue;
+       }
+     
+}
+@media screen and (min-width:1200px){
+    .maincont{
+        background-color: lightblue;
+
+    }
+    
+    .cont1{
+        background-color: lightblue;
+        position: absolute;
+        margin-left: 15%;
+        font-style: initial;
+    }
+    .cont1 h1{
+        margin-top: 55px;
+        font-size: 25px;
+    
+        
+    }
+    .cont1 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont1 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont1 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont1 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+    .cont2{
+        margin-left: 55%;
+    }
+    .cont2 h1{
+        margin-top: 55px;
+        font-size: 25px;
+        
+    }
+    .cont2 h2{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h3{
+        margin-top: 5px;
+        font-size: 55px;  
+    }
+    .cont2 h4{
+        margin-top: 10px;
+        font-size: 20px; 
+        margin-left: 50px; 
+    }
+    .cont2 h5{
+        margin-top: 7px;
+        font-size: 40px;  
+        margin-left: 200px; 
+    
+    }
+    .cont2 h6{
+        font-size: 40px;  
+        margin-left: 320px; 
+    
+    }
+    
+    
+    
+    .sliderbtn{
+        all:unset;
+        display: block;
+        position: absolute;
+        top: 15%;
+        bottom: 0;
+        padding: 5rem;
+        cursor: pointer;
+    
+    }
+    
+    
+    
+    .services{
+        margin-top: 2%;
+        background-color: white;
+        display: inline-flex;
+        flex-flow: row;
+    }
+    .services img:hover{
+        scale: 1.1;
+    
+    }
+    
+    .dilivery{
+        margin-left: 5%;
+        display: flex;
+    }
+    .dilivery img{
+        width: 50px;
+        height: 50px;
+    }
+    .dilivery h1{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .dilivery p{
+        position: absolute;
+        margin-left: 55px;
+        margin-top: 3%;
+        margin-right: 75%;
+    }
+    
+    .money{
+        margin-left: 188px;
+        display: flex;
+    }
+    .money img{
+        width: 40px;
+        height: 40px;
+    }
+    .money h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .money p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 3%;
+    }
+    
+    .time{
+        display: flex;
+        margin-left: 140px;
+    
+    }
+    .time img{
+        width: 40px;
+        height: 40px;
+    }
+    .time h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .time p{
+        position: absolute;
+        margin-left: 45px;
+        margin-top: 3%;
+        margin-right: 25%;
+    }
+    .security{
+        display: flex;
+        margin-left: 50px;
+    }
+    .security img{
+        width: 40px;
+        height: 40px;
+    }
+    .security h1{
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .security p{
+        position: absolute;
+        margin-left: 40px;
+        margin-top: 3%;
+        margin-right: 0%;
+    }
+    
+    
+   .departments{
+    margin-top: 3%;
+    margin-left:5%;
+   } 
+   .departments h1{
+    font-weight: bold;
+   }
+   .departments p{
+    font-size: large;
+   }
+
+
+   .popular{
+    margin-top: 3%;
+    margin-left:5%;
+   } 
+   .popular h1{
+    font-weight: bold;
+   }
+   .popular p{
+    font-size: large;
+   }
+
+
+   .newarrival{
+    width: 100%;
+    height: 400px;
+    background-color: lightgrey;
+    display: flex;
+    flex-flow: wrap;
+   }
+
+   .new1{
+    margin-top: 4%;
+    width: 700px;
+    height: 270px;
+    background-size: cover;
+    margin-left: 10%;
+    background-color: lightcyan;
+   }
+   .new1 h1{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 32%;
+    margin-top: 5%;
+   }
+   .new1 h2{
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 32%;
+   }
+   .new1 h3{
+    margin-top: 10px;
+    font-size: 35px;
+    margin-left: 32%;
+   }
+   .new1 p{
+    color: gray;
+    margin-top: 10px;
+    margin-left: 32%;
+   }
+
+   .new2{
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 400px;
+    height: 270px;
+    background-size: cover;
+    background-color: lightslategray;
+   }
+   .new2 img{
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 25%;
+   }
+   .new2 h1{
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -15%;
+    margin-left: 60px;
+   }
+   .new2 h2{
+    color: gray;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -13%;
+    margin-left: 57px;
+   }
+   .new2 h3{
+    color: red;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 57px;
+   }
+
+
+   .mail{
+    margin-top: 7%;
+   }
+.mail1{
+    display: flex;
+}
+   .mail1 img{
+    width: 80px;
+    height: 50px;
+   }
+   .mail1 h1{
+    font-size: 25px;
+   }
+   .mail1 p{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 85px;
+   }
+.mail2{
+    display: flex;
+}
+   .mail2 input{
+    border: 2px solid black;
+    width: 800px;
+    margin-left: 100%;
+    
+   }
+   .mail2 button{
+    border-bottom: 2px solid black;
+    margin-left: 20px;
+    width: 200px;
+    background-color:lightblue;
+   }
+}
+
+

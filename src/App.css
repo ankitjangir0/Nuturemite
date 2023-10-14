@@ -1,38 +1,391 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+}
+@media screen and (min-width:600px){
+  .nav{
+    background-color: white;
+    padding: 5%;
+
+  }     
+.logo{
+  position: absolute;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+  margin-left: 50%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+  margin-left: 35%;
+  margin-top: 5%;
+  position: relative;
 }
+.home a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.home a:hover{
+  background-color: blue;
   color: white;
+  padding: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.product{
+  margin-left: 45%;
+  margin-top: -21px;
+}
+.product a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+  
+
+}
+.product a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.about{
+  margin-left: 55%;
+  margin-top: -21px;
+  position: relative;
 }
+.about a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+
+}
+.about a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+.ragistration{
+  display: flex;
+  margin-left: 80%;
+  margin-top: -25px;
+
+}
+.ragistration a{
+  text-decoration: none;
+  font-size: larger;
+  font-variant: inherit;
+  color: blue;
+}
+.ragistration a:hover{
+  background-color: blue;
+  color: aliceblue;
+  padding: 5px;
+  margin-top: -7px;
+}
+.ragistration img{
+  width: 45px;
+  border-radius: 50%;
+}
+  
+  }
+
+
+
+@media screen and (min-width:768px){
+  .nav{
+    background-color: white;
+    padding: 5%;
+
+  }  
+.logo{
+  position: absolute;
+}
+.logo img{
+  width:10px;
+  height: 5px;
+  margin-left: 50%;
+}
+
+.home{
+  margin-left: 35%;
+  margin-top: 5%;
+  position: relative;
+}
+.home a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+
+}
+.home a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+.product{
+  margin-left: 45%;
+  margin-top: -21px;
+}
+.product a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+  
+
+}
+.product a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+
+.about{
+  margin-left: 55%;
+  margin-top: -21px;
+  position: relative;
+}
+.about a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+
+}
+.about a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+.ragistration{
+  display: flex;
+  margin-left: 80%;
+  margin-top: -25px;
+
+}
+.ragistration a{
+  text-decoration: none;
+  font-size: larger;
+  font-variant: inherit;
+  color: blue;
+}
+.ragistration a:hover{
+  background-color: blue;
+  color: aliceblue;
+  padding: 5px;
+  margin-top: -7px;
+}
+.ragistration img{
+  width: 45px;
+  border-radius: 50%;
+}
+  
+  }
+
+
+
+
+@media screen and (min-width:992px){
+  .nav{
+    background-color: white;
+    padding: 5%;
+  }
+        
+.logo{
+  position: absolute;
+}
+.logo img{
+  width: 200px;
+  height: 150px;
+  margin-left: 50%;
+}
+
+.home{
+  margin-left: 35%;
+  margin-top: 5%;
+  position: relative;
+}
+.home a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+
+}
+.home a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+.product{
+  margin-left: 45%;
+  margin-top: -21px;
+}
+.product a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+  
+
+}
+.product a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+
+.about{
+  margin-left: 55%;
+  margin-top: -21px;
+  position: relative;
+}
+.about a{
+  text-decoration: none;
+  font-size: large;
+  font-variant: inherit;
+  color: blue;
+
+}
+.about a:hover{
+  background-color: blue;
+  color: white;
+  padding: 7px;
+}
+
+.ragistration{
+  display: flex;
+  margin-left: 80%;
+  margin-top: -25px;
+
+}
+.ragistration a{
+  text-decoration: none;
+  font-size: larger;
+  font-variant: inherit;
+  color: blue;
+}
+.ragistration a:hover{
+  background-color: blue;
+  color: aliceblue;
+  padding: 5px;
+  margin-top: -7px;
+}
+.ragistration img{
+  width: 45px;
+  border-radius: 50%;
+}
+  
+  }
+
+
+
+  @media screen and (min-width:1200px){
+    .nav{
+      background-color: white;
+      padding: 5%;
+  
+    }     
+  .logo{
+    position: absolute;
+  }
+  .logo img{
+    width: 200px;
+    height: 150px;
+    margin-left: 50%;
+  }
+  
+  .home{
+    margin-left: 35%;
+    margin-top: 5%;
+    position: relative;
+  }
+  .home a{
+    text-decoration: none;
+    font-size: large;
+    font-variant: inherit;
+    color: blue;
+  
+  }
+  .home a:hover{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+  }
+  
+  .product{
+    margin-left: 45%;
+    margin-top: -21px;
+  }
+  .product a{
+    text-decoration: none;
+    font-size: large;
+    font-variant: inherit;
+    color: blue;
+    
+  
+  }
+  .product a:hover{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+  }
+  
+  
+  .about{
+    margin-left: 55%;
+    margin-top: -21px;
+    position: relative;
+  }
+  .about a{
+    text-decoration: none;
+    font-size: large;
+    font-variant: inherit;
+    color: blue;
+  
+  }
+  .about a:hover{
+    background-color: blue;
+    color: white;
+    padding: 7px;
+  }
+  
+  .ragistration{
+    display: flex;
+    margin-left: 80%;
+    margin-top: -25px;
+  
+  }
+  .ragistration a{
+    text-decoration: none;
+    font-size: larger;
+    font-variant: inherit;
+    color: blue;
+  }
+  .ragistration a:hover{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    margin-top: -7px;
+  }
+  .ragistration img{
+    width: 45px;
+    border-radius: 50%;
+  }
+    
+    }
+  
